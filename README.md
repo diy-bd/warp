@@ -1,99 +1,93 @@
-# Welcome to [Astro Launch UI](https://www.creative-tim.com/astro/launch-ui/)
+# Free React / Next.js landing page template
 
-![version](https://img.shields.io/badge/version-1.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/astro-launch-ui.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-launch-ui/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/astro-launch-ui.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-launch-ui/issues?q=is%3Aissue+is%3Aclosed)
+![Open React / Next.js template preview](https://github.com/user-attachments/assets/522a5e46-2a0e-48ca-80eb-87c7fa58f3ea)
 
-![basics](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/astro/astrolaunch-ui-free.jpg)
+**Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 
-## Description
+**UPDATE 2025-02-04** Added Tailwind v4 support!
 
-Introducing **Astro LaunchUI**, the ultimate starter template for your startup web project. Built on Astro's next-gen island architecture, Astro LaunchUI offers a sleek and modern design with a wide range of components and features to help you create a stunning online store.
+Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
 
-**Main Features**
-Build your startup website quickly and efficiently with:
-- 70+ fully coded elements
-- 3 fully coded example pages
-- 30+ blocks
-- Responsive design
+Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
-**Example Pages**
-We created a set of pre-built pages to help you get inspired or show something to your clients. See them below:
-- [Landing Page](https://demos.creative-tim.com/astro-launch-ui/landing/): Designed to introduce the website's purpose and encourage the user to take an action.
-- [Product Page](https://demos.creative-tim.com/astro-launch-ui/product/): It's designed to give the user all the information they need to make a purchase decision
-- [Shopping Page](https://demos.creative-tim.com/astro-launch-ui/shopping-cart/): Includes a summary of the items in the cart and a form for billing and shipping information.
-- more+
+_Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0)._
+_Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3)._
+_Version 3.3.0 (before redesign) built with Tailwind CSS and Next.js is available [here](https://github.com/cruip/open-react-template/releases/tag/3.3.0)._
 
-Astro LaunchUI has everything you need to create the startup website of your dreams.
+## Live demo
 
+Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
 
-## 🚀 Project Structure
+## Open PRO
 
-Inside of your Astro project, you'll see the following folders and files:
+[![Open Pro](https://github.com/user-attachments/assets/2062c728-95f1-4d59-aa2d-d63556f625d5)](https://cruip.com/)
 
-```
-/
-├── CHANGELOG.MD
-├── README.md
-├── assets
-│   ├── css
-│   │   ├── input.css
-│   │   └── material-tailwind.css
-│   ├── js
-│   │   └── astro-launch-ui.min.js
-│   └── scss
-│       └── loading-dot.css
-├── astro.config.mjs
-├── create-free-demo.js
-├── hooks/
-├── package.json
-├── public/
-├── src
-│   ├── components/
-│   ├── env.d.ts
-│   ├── example.tsx
-│   ├── header.tsx
-│   ├── layouts
-│   │   └── Layout.astro
-│   ├── pages/
-│   │   ├── 404.astro
-│   │   ├── about.astro
-│   │   ├── index.astro
-│   │   ├── landing.astro
-│   │   ├── login.astro
-├── tailwind.config.js
-└── tsconfig.json
+## Design files
+
+If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/401KSUS
+
+## Usage
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+### Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+pnpm dev (recommended)
+# or
+yarn dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Any static assets, like images, can be placed in the `public/` directory.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-## 🧞 Commands
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-All commands are run from the root of the project, from a terminal:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
+### Learn More
 
-#### Social Media
+To learn more about Next.js, take a look at the following resources:
 
-Twitter: <https://twitter.com/CreativeTim>
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Facebook: <https://www.facebook.com/CreativeTim>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Dribbble: <https://dribbble.com/creativetim>
+### Deploy on Vercel
 
-TikTok: <https://tiktok.com/@creative.tim>
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Instagram: <https://instagram.com/creativetimofficial>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## 👀 Want to learn more?
+### Support notes
 
-Feel free to check [our documentation](https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui) or jump into our [Discord server](https://discord.com/invite/TGZqBvZB).
+This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
+
+For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+
+## Credits
+
+- [Nucleo](https://nucleoapp.com/)
+
+## Terms and License
+
+- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
+- Copyright 2024 [Cruip](https://cruip.com/).
+- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Attribution is not required, although it is really appreciated.
+
+## About Us
+
+We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+
+## Stay in the loop
+
+If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).

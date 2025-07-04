@@ -1,14 +1,56 @@
-# Change Log
+# CHANGELOG.md
 
-## [1.1.0] 2025-03-31
-### Updates
-- Update Astro to v5.5.5
-- Favicon fix path
+## [5.0.0] - 2025-02-04
 
-## [1.0.1] 2023-09-27
-### Updates
-- Upgdate Astro to v3.0
-- Update images path
+- Updgrade to Tailwind v4
+- Update dependencies
 
-## [1.0.0] 2023-08-29
-### Initial Release
+## [4.1.0] - 2024-12-08
+
+- Update dependencies + Upgrade to Next.js 15
+
+## [4.0.0] - 2024-09-11
+
+Redesign the entire template
+
+## [3.3.0] - 2023-12-08
+
+Update to Next.js 14
+Update dependencies
+
+## [3.2.2] - 2023-10-04
+
+Update Twitter icon
+Update dependencies
+
+## [3.2.0] - 2023-05-31
+
+Update dependencies and fix some issues
+
+## [3.1.0] - 2023-05-07
+
+Modal video improvements
+
+## [3.0.0] - 2023-04-12
+
+Conversion to Next.js
+
+## [2.0.3] - 2023-03-28
+
+Fix video
+
+## [2.0.2] - 2023-03-28
+
+Add self-hosted video
+
+## [2.0.1] - 2023-02-16
+
+Remove header links
+
+## [2.0.0] - 2023-02-16
+
+Replace Cruip CSS with Tailwind CSS
+
+## [1.0.0] - 2020-04-07
+
+First release
